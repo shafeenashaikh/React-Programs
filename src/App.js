@@ -8,11 +8,13 @@ import Event from './components/classClick';
 import Click from './components/EventBind';
 import ParentComponent from './components/parentComponent';
 import NameList from './components/NameList';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <NameList/>
+      <Form/>
+      {/* <NameList/> */}
       {/* <ParentComponent/> */}
       {/* <Click/> */}
       {/* <Click/>
