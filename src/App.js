@@ -11,11 +11,17 @@ import NameList from './components/NameList';
 import Form from './components/Form';
 import Mounting from './components/Mounting';
 import Updating from './components/Updating';
+import ShouldUpdate from './components/shouldUpdate';
+import Hooks from './components/Hooks';
+import Useeffect from './components/useeffect';
 
 function App() {
   return (
     <div className="App">
-      <Updating/>
+      <Useeffect/>
+      {/* <Hooks/> */}
+      {/* <ShouldUpdate/> */}
+      {/* <Updating/> */}
       {/* <Mounting/> */}
       {/* <Form/> */}
       {/* <NameList/> */}
