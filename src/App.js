@@ -9,11 +9,13 @@ import Click from './components/EventBind';
 import ParentComponent from './components/parentComponent';
 import NameList from './components/NameList';
 import Form from './components/Form';
+import Mounting from './components/Mounting';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Mounting/>
+      {/* <Form/> */}
       {/* <NameList/> */}
       {/* <ParentComponent/> */}
       {/* <Click/> */}
