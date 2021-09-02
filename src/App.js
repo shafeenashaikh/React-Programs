@@ -10,11 +10,13 @@ import ParentComponent from './components/parentComponent';
 import NameList from './components/NameList';
 import Form from './components/Form';
 import Mounting from './components/Mounting';
+import Updating from './components/Updating';
 
 function App() {
   return (
     <div className="App">
-      <Mounting/>
+      <Updating/>
+      {/* <Mounting/> */}
       {/* <Form/> */}
       {/* <NameList/> */}
       {/* <ParentComponent/> */}
