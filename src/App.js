@@ -14,11 +14,13 @@ import Updating from './components/Updating';
 import ShouldUpdate from './components/shouldUpdate';
 import Hooks from './components/Hooks';
 import Useeffect from './components/useeffect';
+import RefDemo from './components/RefDemo';
 
 function App() {
   return (
     <div className="App">
-      <Useeffect/>
+      <RefDemo/>
+      {/* <Useeffect/> */}
       {/* <Hooks/> */}
       {/* <ShouldUpdate/> */}
       {/* <Updating/> */}
