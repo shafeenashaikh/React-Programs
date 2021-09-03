@@ -15,11 +15,13 @@ import ShouldUpdate from './components/shouldUpdate';
 import Hooks from './components/Hooks';
 import Useeffect from './components/useeffect';
 import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
 
 function App() {
   return (
     <div className="App">
-      <RefDemo/>
+      <FocusInput/>
+      {/* <RefDemo/> */}
       {/* <Useeffect/> */}
       {/* <Hooks/> */}
       {/* <ShouldUpdate/> */}
