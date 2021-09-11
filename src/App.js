@@ -16,11 +16,20 @@ import Hooks from './components/Hooks';
 import Useeffect from './components/useeffect';
 import RefDemo from './components/RefDemo';
 import FocusInput from './components/FocusInput';
+import Counter from './components/count';
+import HoverCounter from './components/HoverCounter';
+import componentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
     <div className="App">
-      <FocusInput/>
+  <UserProvider>
+          <componentC  value="Bruce"/>
+  </UserProvider>
+     {/* <Counter/>
+     <HoverCounter/> */}
+      {/* <FocusInput/> */}
       {/* <RefDemo/> */}
       {/* <Useeffect/> */}
       {/* <Hooks/> */}
