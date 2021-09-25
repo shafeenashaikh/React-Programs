@@ -20,15 +20,17 @@ import Counter from './components/count';
 import HoverCounter from './components/HoverCounter';
 import componentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
+import Parent from './ContextAPI/Parent';
 
 function App() {
   return (
     <div className="App">
-  <UserProvider>
+      <Parent/>
+  {/* <UserProvider>
           <componentC  value="Bruce"/>
-  </UserProvider>
-     {/* <Counter/>
-     <HoverCounter/> */}
+  </UserProvider> */}
+     {/* <Counter/> */}
+     {/* <HoverCounter/> */}
       {/* <FocusInput/> */}
       {/* <RefDemo/> */}
       {/* <Useeffect/> */}
