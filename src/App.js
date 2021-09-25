@@ -21,11 +21,15 @@ import HoverCounter from './components/HoverCounter';
 import componentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
 import Parent from './ContextAPI/Parent';
+import UseEffect from './UseEffect vs useMemo/useEffect';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Parent/>
+     <UseEffect/>
+      {/* <Parent/> */}
   {/* <UserProvider>
           <componentC  value="Bruce"/>
   </UserProvider> */}
