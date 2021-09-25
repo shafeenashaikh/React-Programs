@@ -1,5 +1,6 @@
 import React,{createContext, useState} from "react";
 import Child from "./Child";
+import OtherChild from "./OtherChild";
 
 export const GlobalInfo = createContext();
 
@@ -10,6 +11,7 @@ function Parent(){
         <div>
             <h1>Parent Component</h1>
             <Child/>
+            <OtherChild/>
         </div>
         </GlobalInfo.Provider>
     )
