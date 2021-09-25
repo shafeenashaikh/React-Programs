@@ -22,13 +22,15 @@ import componentC from './components/ComponentC';
 import { UserProvider } from './components/userContext';
 import Parent from './ContextAPI/Parent';
 import UseEffect from './UseEffect vs useMemo/useEffect';
+import UseMemo from './UseEffect vs useMemo/useMemo';
 
 
 
 function App() {
   return (
     <div className="App">
-     <UseEffect/>
+      <UseMemo/>
+     {/* <UseEffect/> */}
       {/* <Parent/> */}
   {/* <UserProvider>
           <componentC  value="Bruce"/>
