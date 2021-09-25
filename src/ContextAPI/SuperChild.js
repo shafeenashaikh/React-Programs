@@ -1,15 +1,15 @@
 import React,{useContext} from "react";
 import { GlobalInfo } from "./Parent";
-import SuperChild from "./SuperChild";
 
-function Child(){
+
+function SuperChild(){
 
     const {appColor} = useContext(GlobalInfo);
     return(
         <div>
-            <h1 style={{color:appColor}}>Child Component</h1>
-            <SuperChild/>
+            <h1 style={{color:appColor}}>SuperChild Component</h1>
+           
         </div>
     )
 }
-export default Child
+export default SuperChild
