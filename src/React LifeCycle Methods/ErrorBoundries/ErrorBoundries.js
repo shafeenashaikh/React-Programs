@@ -22,7 +22,7 @@ static getDerivedStateFromError(error){
                   </div>
               )
           }else{
-              return this.state.children;
+              return this.props.children;
           }
     }
 }
