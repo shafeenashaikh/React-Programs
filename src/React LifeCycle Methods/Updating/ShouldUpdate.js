@@ -17,6 +17,10 @@ class ComponentShouldUpdate extends Component{
         }
     }
 
+getSnapshotBeforeUpdate(preProps,preState){
+    console.log('getSnapshotBeforeUpdate',preState);
+}
+
     render(){
         return(
             <div>
