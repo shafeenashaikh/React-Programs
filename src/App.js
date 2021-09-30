@@ -28,12 +28,14 @@ import GetData from './React LifeCycle Methods/Mounting/GetData';
 import MountingLifeCycle from './React LifeCycle Methods/Mounting/Mounting';
 import DidUpdate from './React LifeCycle Methods/Updating/DidUpdate';
 import DidUpdate1 from './React LifeCycle Methods/Updating/DidUpdate1';
+import ComponentShouldUpdate from './React LifeCycle Methods/Updating/ShouldUpdate';
 
 
 function App() {
   return (
     <div className="App">
-      <DidUpdate1/>
+      <ComponentShouldUpdate/>
+      {/* <DidUpdate1/> */}
       {/* <DidUpdate/> */}
       {/* <MountingLifeCycle/> */}
       {/* <Employee/> */}
