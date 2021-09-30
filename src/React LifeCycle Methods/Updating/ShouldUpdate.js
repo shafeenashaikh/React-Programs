@@ -10,7 +10,11 @@ class ComponentShouldUpdate extends Component{
     }
     shouldComponentUpdate(){
         console.log("shouldComponentUpdate",this.state.count);
-        return true
+        if(this.state.count>5 && this.state.count<20)
+        {
+            
+            return true
+        }
     }
 
     render(){
