@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Employee extends Component{
+class GetData extends Component{
 
     constructor(props){
         super(props);
@@ -9,6 +9,9 @@ class Employee extends Component{
         }
     }
 
+    static getDerivedStateFromProps(props,state){
+        return {name: props.name}
+    }
     render(){
         return(
             <div>
@@ -17,4 +20,4 @@ class Employee extends Component{
         )
     }
 }
-export default Employee;
+export default GetData

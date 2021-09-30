@@ -24,13 +24,15 @@ import Parent from './ContextAPI/Parent';
 import UseEffect from './UseEffect vs useMemo/useEffect';
 import UseMemo from './UseEffect vs useMemo/useMemo';
 import Employee from './React LifeCycle Methods/Mounting/Employee';
+import GetData from './React LifeCycle Methods/Mounting/GetData';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Employee/>
+      {/* <Employee/> */}
+      <GetData name="Diana"/>
       {/* <UseMemo/> */}
      {/* <UseEffect/> */}
       {/* <Parent/> */}
