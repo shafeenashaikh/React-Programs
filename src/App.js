@@ -39,15 +39,17 @@ import ErrorBoundries1 from './React LifeCycle Methods/ErrorBoundries/ErrorBound
 function App() {
   return (
     <div className="App">
-      <ErrorBoundries1>
+      < ErrorBoundries>
+              <CounterDemo/>
+          </ErrorBoundries> 
+     
+
+      {/* <ErrorBoundries1>
         <Hero heroName="Batman"/>
       </ErrorBoundries1>
       <ErrorBoundries1>
       <Hero heroName="joker"/>
-      </ErrorBoundries1>
-      {/* < ErrorBoundries>
-              <CounterDemo/>
-          </ErrorBoundries> */}
+      </ErrorBoundries1> */}
      
       {/* <UnMount/> */}
       {/* <ComponentShouldUpdate/> */}

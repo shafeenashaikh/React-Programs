@@ -11,7 +11,7 @@ constructor(){
 
     render(){
         if(this.state.count == 5){
-            throw new Error("Error Ocurred!")
+            throw new Error("somthing went Wrong!")
         }
         else{
             return(
