@@ -29,12 +29,14 @@ import MountingLifeCycle from './React LifeCycle Methods/Mounting/Mounting';
 import DidUpdate from './React LifeCycle Methods/Updating/DidUpdate';
 import DidUpdate1 from './React LifeCycle Methods/Updating/DidUpdate1';
 import ComponentShouldUpdate from './React LifeCycle Methods/Updating/ShouldUpdate';
+import UnMount from './React LifeCycle Methods/UnMounting/UnMount';
 
 
 function App() {
   return (
     <div className="App">
-      <ComponentShouldUpdate/>
+      <UnMount/>
+      {/* <ComponentShouldUpdate/> */}
       {/* <DidUpdate1/> */}
       {/* <DidUpdate/> */}
       {/* <MountingLifeCycle/> */}
