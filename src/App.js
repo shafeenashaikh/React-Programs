@@ -25,14 +25,15 @@ import UseEffect from './UseEffect vs useMemo/useEffect';
 import UseMemo from './UseEffect vs useMemo/useMemo';
 import Employee from './React LifeCycle Methods/Mounting/Employee';
 import GetData from './React LifeCycle Methods/Mounting/GetData';
-
+import MountingLifeCycle from './React LifeCycle Methods/Mounting/Mounting';
 
 
 function App() {
   return (
     <div className="App">
+      <MountingLifeCycle/>
       {/* <Employee/> */}
-      <GetData name="Diana"/>
+      {/* <GetData name="Diana"/> */}
       {/* <UseMemo/> */}
      {/* <UseEffect/> */}
       {/* <Parent/> */}
