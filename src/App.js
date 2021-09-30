@@ -30,12 +30,18 @@ import DidUpdate from './React LifeCycle Methods/Updating/DidUpdate';
 import DidUpdate1 from './React LifeCycle Methods/Updating/DidUpdate1';
 import ComponentShouldUpdate from './React LifeCycle Methods/Updating/ShouldUpdate';
 import UnMount from './React LifeCycle Methods/UnMounting/UnMount';
+import CounterDemo from './React LifeCycle Methods/ErrorBoundries/Counter';
+import ErrorBoundries from './React LifeCycle Methods/ErrorBoundries/ErrorBoundries';
 
 
 function App() {
   return (
     <div className="App">
-      <UnMount/>
+      < ErrorBoundries>
+        <CounterDemo/>
+        </ErrorBoundries>
+     
+      {/* <UnMount/> */}
       {/* <ComponentShouldUpdate/> */}
       {/* <DidUpdate1/> */}
       {/* <DidUpdate/> */}
