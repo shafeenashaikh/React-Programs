@@ -32,14 +32,22 @@ import ComponentShouldUpdate from './React LifeCycle Methods/Updating/ShouldUpda
 import UnMount from './React LifeCycle Methods/UnMounting/UnMount';
 import CounterDemo from './React LifeCycle Methods/ErrorBoundries/Counter';
 import ErrorBoundries from './React LifeCycle Methods/ErrorBoundries/ErrorBoundries';
+import Hero from './React LifeCycle Methods/ErrorBoundries/Hero';
+import ErrorBoundries1 from './React LifeCycle Methods/ErrorBoundries/ErrorBoundries1';
 
 
 function App() {
   return (
     <div className="App">
-      < ErrorBoundries>
-        <CounterDemo/>
-        </ErrorBoundries>
+      <ErrorBoundries1>
+        <Hero heroName="Batman"/>
+      </ErrorBoundries1>
+      <ErrorBoundries1>
+      <Hero heroName="joker"/>
+      </ErrorBoundries1>
+      {/* < ErrorBoundries>
+              <CounterDemo/>
+          </ErrorBoundries> */}
      
       {/* <UnMount/> */}
       {/* <ComponentShouldUpdate/> */}
