@@ -9,8 +9,14 @@ class GetData extends Component{
         }
     }
 
-    static getDerivedStateFromProps(props,state){
-        return {name: props.name}
+    // static getDerivedStateFromProps(props,state){
+    //     return {name: props.name}
+    // }
+
+    componentDidMount(){
+        setTimeout(()=>{
+            this.setState({name:"jai"});
+        }, 5000);
     }
     render(){
         return(
