@@ -27,12 +27,14 @@ import Employee from './React LifeCycle Methods/Mounting/Employee';
 import GetData from './React LifeCycle Methods/Mounting/GetData';
 import MountingLifeCycle from './React LifeCycle Methods/Mounting/Mounting';
 import DidUpdate from './React LifeCycle Methods/Updating/DidUpdate';
+import DidUpdate1 from './React LifeCycle Methods/Updating/DidUpdate1';
 
 
 function App() {
   return (
     <div className="App">
-      <DidUpdate/>
+      <DidUpdate1/>
+      {/* <DidUpdate/> */}
       {/* <MountingLifeCycle/> */}
       {/* <Employee/> */}
       {/* <GetData name="Diana"/> */}
