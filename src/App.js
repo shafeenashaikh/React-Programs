@@ -43,6 +43,7 @@ import Student from './Props/Student';
 import StudentClass from './Props/StudentClass';
 import Controlled from './Contolledv/sunContolled/Controlled';
 import UnControlled from './Contolledv/sunContolled/UnControlled';
+import ParentComp from './PureComponents/ParentComp';
 // import { useState } from 'react';
 
 
@@ -50,7 +51,8 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <UnControlled/>
+      <ParentComp/>
+      {/* <UnControlled/> */}
       {/* <Controlled/> */}
 
       {/* <StudentClass name={name}/>
