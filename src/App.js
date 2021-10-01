@@ -42,6 +42,7 @@ import PropsName from './Props/PropsName';
 import Student from './Props/Student';
 import StudentClass from './Props/StudentClass';
 import Controlled from './Contolledv/sunContolled/Controlled';
+import UnControlled from './Contolledv/sunContolled/UnControlled';
 // import { useState } from 'react';
 
 
@@ -49,7 +50,8 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <Controlled/>
+      <UnControlled/>
+      {/* <Controlled/> */}
 
       {/* <StudentClass name={name}/>
       <button onClick={()=>setName('sam')}>Update Name</button>  */}
