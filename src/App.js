@@ -39,12 +39,14 @@ import Name from './State/Name';
 import Counter1 from './State/CountFunction';
 import CountClass from './State/CountClass';
 import PropsName from './Props/PropsName';
+import Student from './Props/Student';
 
 
 function App() {
   return (
     <div className="App">
-      <PropsName name='Sam'/>
+      <Student name="John" Email="John@1.com" contact="12345"/>
+      {/* <PropsName name='Sam'/> */}
       {/* <CountClass/> */}
      {/* <Counter1/> */}
       {/* <Name/> */}
