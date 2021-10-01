@@ -41,15 +41,18 @@ import CountClass from './State/CountClass';
 import PropsName from './Props/PropsName';
 import Student from './Props/Student';
 import StudentClass from './Props/StudentClass';
-import { useState } from 'react';
+import Controlled from './Contolledv/sunContolled/Controlled';
+// import { useState } from 'react';
 
 
 function App() {
-  const[name,setName]=useState('Bruce')
+  // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <StudentClass name={name}/>
-    <button onClick={()=>setName('sam')}>Update Name</button> 
+      <Controlled/>
+
+      {/* <StudentClass name={name}/>
+      <button onClick={()=>setName('sam')}>Update Name</button>  */}
       {/* <Student name={name} Email="John@1.com" contact="12345"/>
       <button onClick={()=>setName('Diana')}>Update Name</button> */}
       
