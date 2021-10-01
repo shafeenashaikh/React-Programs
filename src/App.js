@@ -40,6 +40,7 @@ import Counter1 from './State/CountFunction';
 import CountClass from './State/CountClass';
 import PropsName from './Props/PropsName';
 import Student from './Props/Student';
+import StudentClass from './Props/StudentClass';
 import { useState } from 'react';
 
 
@@ -47,9 +48,10 @@ function App() {
   const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-     
-      <Student name={name} Email="John@1.com" contact="12345"/>
-      <button onClick={()=>setName('Diana')}>Update Name</button>
+      <StudentClass name={name}/>
+    <button onClick={()=>setName('sam')}>Update Name</button> 
+      {/* <Student name={name} Email="John@1.com" contact="12345"/>
+      <button onClick={()=>setName('Diana')}>Update Name</button> */}
       
       {/* <PropsName name='Sam'/> */}
       {/* <CountClass/> */}
