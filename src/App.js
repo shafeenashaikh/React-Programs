@@ -38,12 +38,14 @@ import Message1 from './State/Message';
 import Name from './State/Name';
 import Counter1 from './State/CountFunction';
 import CountClass from './State/CountClass';
+import PropsName from './Props/PropsName';
 
 
 function App() {
   return (
     <div className="App">
-      <CountClass/>
+      <PropsName name='Sam'/>
+      {/* <CountClass/> */}
      {/* <Counter1/> */}
       {/* <Name/> */}
      {/* <Message1/> */}
