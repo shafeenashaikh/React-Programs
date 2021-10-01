@@ -40,12 +40,17 @@ import Counter1 from './State/CountFunction';
 import CountClass from './State/CountClass';
 import PropsName from './Props/PropsName';
 import Student from './Props/Student';
+import { useState } from 'react';
 
 
 function App() {
+  const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <Student name="John" Email="John@1.com" contact="12345"/>
+     
+      <Student name={name} Email="John@1.com" contact="12345"/>
+      <button onClick={()=>setName('Diana')}>Update Name</button>
+      
       {/* <PropsName name='Sam'/> */}
       {/* <CountClass/> */}
      {/* <Counter1/> */}
@@ -54,8 +59,6 @@ function App() {
       {/* < ErrorBoundries>
               <CounterDemo/>
           </ErrorBoundries>  */}
-     
-
       {/* <ErrorBoundries1>
         <Hero heroName="Batman"/>
       </ErrorBoundries1>
