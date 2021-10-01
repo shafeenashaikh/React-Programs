@@ -36,12 +36,14 @@ import Hero from './React LifeCycle Methods/ErrorBoundries/Hero';
 import ErrorBoundries1 from './React LifeCycle Methods/ErrorBoundries/ErrorBoundries1';
 import Message1 from './State/Message';
 import Name from './State/Name';
+import Counter1 from './State/Count';
 
 
 function App() {
   return (
     <div className="App">
-      <Name/>
+     <Counter1/>
+      {/* <Name/> */}
      {/* <Message1/> */}
       {/* < ErrorBoundries>
               <CounterDemo/>
