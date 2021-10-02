@@ -45,6 +45,7 @@ import Controlled from './Contolledv/sunContolled/Controlled';
 import UnControlled from './Contolledv/sunContolled/UnControlled';
 import ParentComp from './PureComponents/ParentComp';
 import CounterClick from './HOC/CounterClick';
+import Hover from './HOC/Hover';
 // import { useState } from 'react';
 
 
@@ -52,7 +53,9 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
+    
       <CounterClick/>
+      <Hover/>
       {/* <ParentComp/> */}
       {/* <UnControlled/> */}
       {/* <Controlled/> */}
