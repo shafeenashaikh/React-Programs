@@ -1,27 +1,16 @@
 import React, { Component } from "react";
+import HOCcounter from "./HOCcounter";
 
 class CounterClick extends Component{
 
-    constructor(props){
-        super();
-        this.state ={
-            count: 0
-        }
-
-    }
-
-    incrementCount = () => {
-        this.setState(prevState => {
-            return {count: prevState.count + 1}
-        })
-    }
+ 
     render(){
-        const {count} = this.state
+        const {count, incrementCount} = this.props
         return(
             <div>
-                <button onClick={this.incrementCount}>Click {count} times</button>
+                <button onClick={incrementCount}> Click {count} times</button>
             </div>
         )
     }
 }
-export default CounterClick
+export default HOCcounter(CounterClick)
