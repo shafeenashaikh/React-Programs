@@ -44,6 +44,7 @@ import StudentClass from './Props/StudentClass';
 import Controlled from './Contolledv/sunContolled/Controlled';
 import UnControlled from './Contolledv/sunContolled/UnControlled';
 import ParentComp from './PureComponents/ParentComp';
+import CounterClick from './HOC/CounterClick';
 // import { useState } from 'react';
 
 
@@ -51,7 +52,8 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <ParentComp/>
+      <CounterClick/>
+      {/* <ParentComp/> */}
       {/* <UnControlled/> */}
       {/* <Controlled/> */}
 
