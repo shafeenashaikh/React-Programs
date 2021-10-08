@@ -51,6 +51,8 @@ import ClassClick from './ReactEvents/ClassClick';
 import EventBind from './ReactEvents/EventBind';
 import ConstBind from './ReactEvents/ConstBind';
 import OnChange from './ReactEvents/OnChange';
+import HooksEvent from './EventHandligwithHooks/HooksEvent';
+
 
 // import { useState } from 'react';
 
@@ -59,7 +61,8 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <OnChange/>
+      <HooksEvent/>
+      {/* <OnChange/> */}
       {/* <ConstBind/> */}
       {/* <EventBind/> */}
       {/* <ClassClick/>
