@@ -49,6 +49,7 @@ import Hover from './HOC/Hover';
 import FunctioClick from './ReactEvents/FunctionClick';
 import ClassClick from './ReactEvents/ClassClick';
 import EventBind from './ReactEvents/EventBind';
+import ConstBind from './ReactEvents/ConstBind';
 
 // import { useState } from 'react';
 
@@ -57,7 +58,8 @@ function App() {
   // const[name,setName]=useState('Bruce')
   return (
     <div className="App">
-      <EventBind/>
+      <ConstBind/>
+      {/* <EventBind/> */}
       {/* <ClassClick/>
       <FunctioClick/> */}
 
